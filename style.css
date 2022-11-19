@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;  
+}
+
+body {
+
+    background: linear-gradient(#111,#222);
+}
+.body-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://www.toyota.com/imgix/content/dam/toyota/jellies/max/2023/grsupra/a91-mt/2387/d12/2.png?fm=webp&amp;&amp;w=768&amp;h=328&amp;q=90");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size:40%;
+    /*
+    background-size:100%;
+    background-position: center bottom;
+    */
+    
+}
+
+/* .container::before{
+    content: "";
+    width: 100%;
+    height:100%;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    clip-path: circle(40% at right 80%);
+} */
+
+.container {
+    width: 100%;
+}
+
+.content-container{
+    width: 100%;
+    height: 90vh;
+    border-radius: 20px;
+    margin: auto;  
+    /* background-color: rgba(0, 0, 0, .7); */
+}
+
+/* .content-container::before {
+    content: "";
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding: 27px 0 0;
+}
+nav .logo{
+    color: #fff;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 7px;
+}
+nav ul li a{
+   color: #fff;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: 500;
+}
+nav ul li a:hover{
+    color: rgb(255, 0, 0);
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+    width: 80%;
+    margin: auto;
+}
+.content .text{
+    color: #fff;
+    
+}
+.content .text h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.G,.R{
+    padding: 2px;
+    color: #fff;
+}
+.G{
+    background-color: black;
+}
+.R{
+    background-color: red;
+}
+
+
+.content .text .details{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+.content .text .mark{
+    padding: 2px;
+    background-color: red;
+    color: #fff;
+
+}
+.content .image{
+    width: 45%;
+    
+}
+.content .image img{
+    width: 500px;
+    height: 100%;
+}
+@media (min-width:900px) and (max-width:1140px){
+    /* .content .image img{
+        width: 450px;
+        height: 100%;
+    } */
+}
+@media (max-width:600px){
+    
+}
